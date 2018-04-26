@@ -8,4 +8,3 @@ public:
 	void print() const;
 	void update();
 };
-

@@ -7,8 +7,11 @@ using namespace std;
 	void Goblin::attack(){
 		int dice = rand() % 4 + 1;
 		int attack = strength + dice;
+        cout << "STRENGTH IS " << strength << endl;
 		cout << "ATTACK WAS " << attack << endl;
 	}
-	void Goblin::injure(){}
+	void Goblin::injure(){
+        
+    }
 	void Goblin::print() const{}
 	void Goblin::update() {}
