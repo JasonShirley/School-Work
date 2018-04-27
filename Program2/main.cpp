@@ -10,8 +10,8 @@
 
 #include "Enemy.h"
 #include "Goblin.h"
-//#include "Troll.h"
-//#include "Orc.h"
+#include "Troll.h"
+#include "Orc.h"
 
 #include <iostream>
 #include <fstream>
@@ -37,18 +37,17 @@ int main() {
  
 		//Create array of Enemy pointers
 		Enemy **monsters = new Enemy*[numEnemies];
-		cout << "HERE" << endl;
 		for(int i=0; i<numEnemies; i++)	{
 			inFile >> type >> hp >> str >> con >> xPos >> yPos;
-			cout << "HERE1" << endl;
+            cout << "STRENGTH in main " << str << endl;
 			if(type == GOBLIN)
 				monsters[i] = new Goblin(hp, str, con, xPos, yPos);
-				cout << "HERE2" << endl;
-			/*else if(type == TROLL)
+
+			else if(type == TROLL)
 				monsters[i] = new Troll(hp, str, con, xPos, yPos);
 			else if(type == ORC)
 				monsters[i] = new Orc(hp, str, con, xPos, yPos);
-			*/															// <- DELETE AFTER TESTING
+																		// <- DELETE AFTER TESTING
 		}//end for
 		inFile.close();
 
@@ -58,15 +57,14 @@ int main() {
 		int turn = 0;
 		while(turn < NUM_TURNS)	{
 			std::cout << "\nTurn #" << turn << std::endl;
-			for(int i=0; i<1; i++)	{								// CHANGE BACK TO DEFAULT LATER!!!!!!!!!!!!!!!!!!!!!
+			for(int i=0; i<numEnemies; i++)	{								// CHANGE BACK TO DEFAULT LATER!!!!!!!!!!!!!!!!!!!!!
 				if(monsters[i]->isAlive()){ //skip dead enemies
-					cout << "HERE3" << endl;
-					//monsters[i]->update();
-					//monsters[i]->print();
+					monsters[i]->update();
+					monsters[i]->print();
 					monsters[i]->attack();
-					//int temp = rand() % 10;
-					//cout << "****************************" << temp << endl;
-					//monsters[i]->injure(rand() % 10);
+					int temp = rand() % 10;
+					cout << "****************************" << temp << endl;
+					monsters[i]->injure(rand() % 10);
 				}//end if monster is alive
 			}//end for
 			turn++;

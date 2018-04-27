@@ -1,10 +1,10 @@
 #include "Enemy.h"
 #include <cstdlib>
 #include <iostream>
-
-Enemy::Enemy(int health, const int eStrength, const int eConstitution, const int startX, const int startY):
+using namespace std;
+Enemy::Enemy(int health, int eStrength, int eConstitution, int startX, int startY):
         currentHealth(health), strength(eStrength), constitution(eConstitution),
-        startXLocation(startX), startYLocation(startY), alive(true)
+        xLoc(startX), yLoc(startY), alive(true)
 {
 //    enemyId = rand % 100;
 }
