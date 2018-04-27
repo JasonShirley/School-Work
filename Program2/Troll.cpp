@@ -20,7 +20,7 @@ void Troll::attack(){								//CHANGE STATEMENT TO if (alive)
     }
 }
 void Troll::injure(int attDamage){
-    if (currentHealth > 0){							//CHANGE STATEMENT TO if (alive)  
+    if (currentHealth > 0){							//CHANGE STATEMENT TO if (alive)    
         int damage = attDamage - (1.5 * constitution);
         if (damage < 0) { damage = 0; }
         currentHealth = currentHealth - damage;
