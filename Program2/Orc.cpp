@@ -8,14 +8,14 @@ using namespace std;
     print();
 }
 void Orc::update() {
-    if (currentHealth > 0){
+    if (currentHealth > 0){								//CHANGE STATEMENT TO if (alive)
         int pos = rand() % -5 + 5;
         xLoc = xLoc + pos;
         yLoc = yLoc + pos;
     }
 
 }
-void Orc::attack(){
+void Orc::attack(){									//CHANGE STATEMENT TO if (alive)
     if (currentHealth > 0){
         int dice = rand() % 6 + 1;
         int attack = strength + dice;
@@ -27,7 +27,7 @@ void Orc::injure(int attDamage){
         if (damage < 0) { damage = 0; }
         currentHealth = currentHealth - damage;
     }
-    if (currentHealth < 0){
+    if (currentHealth < 0){						//CHANGE STATEMENT TO if (alive)
         currentHealth = 0;
         alive = false;
         cout << "Orc " << enemyID << " has been slain!" << endl;

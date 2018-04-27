@@ -8,19 +8,19 @@ using namespace std;
     print();
 }
 void Troll::update() {
-    if (currentHealth > 0){
+    if (currentHealth > 0){								//CHANGE STATEMENT TO if (alive)
         yLoc = yLoc + rand() % -7 + 10;
     }
 
 }
-void Troll::attack(){
+void Troll::attack(){								//CHANGE STATEMENT TO if (alive)
     if (currentHealth > 0){
         int dice = rand() % 8 + 1;
         int attack = strength + dice;
     }
 }
 void Troll::injure(int attDamage){
-    if (currentHealth > 0){
+    if (currentHealth > 0){							//CHANGE STATEMENT TO if (alive)
         int damage = attDamage - (1.5 * constitution);
         if (damage < 0) { damage = 0; }
         currentHealth = currentHealth - damage;

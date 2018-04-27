@@ -9,14 +9,14 @@ using namespace std;
     print();
 }
 void Goblin::update() {
-    if (currentHealth > 0){
+    if (currentHealth > 0){									//CHANGE STATEMENT TO if (alive)
         yLoc = yLoc + rand() % -3 + 3;
         xLoc = xLoc + rand() % -2 + 2;
     }
 
 }
 void Goblin::attack(){
-    if (currentHealth > 0){
+    if (currentHealth > 0){									//CHANGE STATEMENT TO if (alive)
         int dice = rand() % 4 + 1;
         int attack = strength + dice;
     }
