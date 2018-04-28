@@ -1,5 +1,6 @@
+#ifndef TROLL_H
+#define TROLL_H
 #include "Enemy.h"
-
 class Troll : public Enemy{
 public:
 	Troll(int health, const int cStrength, const int eConstitution, const int startX, const int startY);
@@ -10,3 +11,4 @@ public:
 private:
     int startingHealth;
 };
+#endif

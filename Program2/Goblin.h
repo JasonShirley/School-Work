@@ -1,5 +1,6 @@
+#ifndef GOBLIN_H
+#define GOBLIN_H
 #include "Enemy.h"
-
 class Goblin : public Enemy{
 public:
 	Goblin(int health, const int cStrength, const int eConstitution, const int startX, const int startY);
@@ -8,3 +9,4 @@ public:
 	void print() const;
 	void update();
 };
+#endif

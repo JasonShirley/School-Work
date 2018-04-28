@@ -10,17 +10,17 @@ using namespace std;
     print();
 }
 void Troll::update() {
-    if (currentHealth > 0){								//CHANGE STATEMENT TO if (alive)
-        int pos = (rand() % 3 + 7);
-        xLoc = xLoc + (rand() % 3 + 7);
+    if (alive){
+        int posMinus = (rand() % 3 + (-10));
+        int posPlus = (rand() % 3 + 7);
+        if (-(posMinus) > posPlus) { xLoc = xLoc + (rand() % 3 + (-10));}
+        else {xLoc = xLoc + (rand() % 3 + 7);}       
     }
     currentHealth = currentHealth + constitution;
-    if (currentHealth > startingHealth){
-        currentHealth = startingHealth;
-    }
+    if (currentHealth > startingHealth) {currentHealth = startingHealth;}
     cout << "Troll " << enemyID << " regenerates " << constitution << " health" << endl;
 }
-void Troll::attack(){								//CHANGE STATEMENT TO if (alive)
+void Troll::attack(){
     int attackDam;
     if (currentHealth > 0){
         int dice = rand() % 8 + 1;
@@ -30,16 +30,17 @@ void Troll::attack(){								//CHANGE STATEMENT TO if (alive)
 }
 void Troll::injure(int attDamage){
     int damage = attDamage - (1.5 * constitution);
-    if (currentHealth > 0){							//CHANGE STATEMENT TO if (alive)    
-        if (damage < 0) { damage = 0; }
-        currentHealth = currentHealth - damage;
-    }
-    cout << "The passer by treies to attack Troll " << enemyID << ", but it's not very effective..."<< endl;
-    cout << "Troll " << enemyID << " takes " << damage << " damage! Current hp = " << currentHealth << endl;
-    if (currentHealth < 0){
-        currentHealth = 0;
+							//CHANGE STATEMENT TO if (alive)    
+    if (damage < 0) { damage = 0; }
+    currentHealth = currentHealth - damage;
+    if (currentHealth <= 0){
         alive = false;
+        cout << "Troll " << enemyID << " takes " << damage << " damage! Current hp = " << currentHealth << endl;
         cout << "Troll " << enemyID << " has been slain!" << endl;
+    }
+    else if (alive){
+        cout << "The passer by tries to attack Troll " << enemyID << ", but it's not very effective..."<< endl;
+        cout << "Troll " << enemyID << " takes " << damage << " damage! Current hp = " << currentHealth << endl;
     }
 }
 void Troll::print() const{
