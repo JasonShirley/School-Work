@@ -7,4 +7,6 @@ public:
 	void injure(int attDamage);
 	void print() const;
 	void update();
+private:
+    int startingHealth;
 };

@@ -26,7 +26,7 @@ using namespace std;
 #define NUM_TURNS 10	//turn this down to 1-2 when testing!
 
 int main() {
-	//srand(time(NULL));
+	srand(time(NULL));
 	srand(static_cast<int>(time(0)));
 
 	std::fstream inFile("enemyInfo.txt");

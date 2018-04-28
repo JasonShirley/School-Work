@@ -1,30 +1,41 @@
 #include "Troll.h"
 #include <iostream>
 using namespace std;
+
 	Troll::Troll(int health, int const cStrength, int const eConstitution, int startX, int startY):
 	Enemy(health, cStrength, eConstitution, startX, startY)
 {
     enemyID = TROLL_ID;
+    startingHealth = currentHealth;
     print();
 }
 void Troll::update() {
     if (currentHealth > 0){								//CHANGE STATEMENT TO if (alive)
-        yLoc = yLoc + rand() % -7 + 10;
+        int pos = (rand() % 3 + 7);
+        xLoc = xLoc + (rand() % 3 + 7);
     }
-
+    currentHealth = currentHealth + constitution;
+    if (currentHealth > startingHealth){
+        currentHealth = startingHealth;
+    }
+    cout << "Troll " << enemyID << " regenerates " << constitution << " health" << endl;
 }
 void Troll::attack(){								//CHANGE STATEMENT TO if (alive)
+    int attackDam;
     if (currentHealth > 0){
         int dice = rand() % 8 + 1;
-        int attack = strength + dice;
+        attackDam = strength + dice;
     }
+    cout << "Troll " << enemyID << " attacks a random passerby for " << attackDam << " damage!" << endl;
 }
 void Troll::injure(int attDamage){
+    int damage = attDamage - (1.5 * constitution);
     if (currentHealth > 0){							//CHANGE STATEMENT TO if (alive)    
-        int damage = attDamage - (1.5 * constitution);
         if (damage < 0) { damage = 0; }
         currentHealth = currentHealth - damage;
     }
+    cout << "The passer by treies to attack Troll " << enemyID << ", but it's not very effective..."<< endl;
+    cout << "Troll " << enemyID << " takes " << damage << " damage! Current hp = " << currentHealth << endl;
     if (currentHealth < 0){
         currentHealth = 0;
         alive = false;

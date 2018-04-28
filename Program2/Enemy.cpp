@@ -6,8 +6,8 @@ Enemy::Enemy(int health, int eStrength, int eConstitution, int startX, int start
         currentHealth(health), strength(eStrength), constitution(eConstitution),
         xLoc(startX), yLoc(startY), alive(true)
 {
-//    enemyId = rand % 100;
+    srand(time(NULL));
 }
 bool Enemy::isAlive() const{
-		return alive;
+    return alive;
 }

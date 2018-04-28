@@ -10,22 +10,27 @@ using namespace std;
 }
 void Goblin::update() {
     if (currentHealth > 0){									//CHANGE STATEMENT TO if (alive)
-        yLoc = yLoc + rand() % -3 + 3;
-        xLoc = xLoc + rand() % -2 + 2;
+        yLoc = yLoc + rand() % 6 - 3;
+        xLoc = xLoc + rand() % 4 - 2;
     }
 
 }
 void Goblin::attack(){
+    int attackDam;
     if (currentHealth > 0){									//CHANGE STATEMENT TO if (alive)
         int dice = rand() % 4 + 1;
-        int attack = strength + dice;
+        attackDam = strength + dice;
     }
+    cout << "Goblin " << enemyID << " attacks a random passerby for " << attackDam << " damage!" << endl;
+
 }
 void Goblin::injure(int attDamage){
 
     int damage = attDamage - (.5 * constitution);
     if (damage < 0) { damage = 0; }
-    currentHealth = currentHealth - damage;
+        currentHealth = currentHealth - damage;
+        cout << "The passer by treies to attack Goblin " << enemyID << ", but it's not very effective..."<< endl;
+        cout << "Goblin " << enemyID << " takes " << damage << " damage! Current hp = " << currentHealth << endl;
     if (currentHealth < 0){
         currentHealth = 0;
         alive = false;
