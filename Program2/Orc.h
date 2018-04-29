@@ -3,7 +3,7 @@
 #include "Enemy.h"
 class Orc : public Enemy{
 public:
-	Orc(int health, const int cStrength, const int eConstitution, const int startX, const int startY);
+	Orc(int health, const int cStrength, const int eConstitution, int startX, int startY);
 	void attack();
 	void injure(int attDamage);
 	void print() const;

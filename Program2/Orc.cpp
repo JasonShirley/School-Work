@@ -1,7 +1,7 @@
 #include "Orc.h"
 #include <iostream>
 using namespace std;
-	Orc::Orc(int health, int const cStrength, int const eConstitution, int startX, int startY):
+Orc::Orc(int health, int const cStrength, int const eConstitution, int startX, int startY):
 	Enemy(health, cStrength, eConstitution, startX, startY)
 {
     enemyID = ORC_ID;

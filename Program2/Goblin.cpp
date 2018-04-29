@@ -1,9 +1,8 @@
 #include "Goblin.h"
 #include <iostream>
 using namespace std;
-	Goblin::Goblin(int health, int const cStrength, int const eConstitution, int startX, int startY):
+Goblin::Goblin(int health, int const cStrength, int const eConstitution, int startX, int startY):
 	Enemy(health, cStrength, eConstitution, startX, startY){
-    cout << currentHealth << " HEALTH" << endl;
     enemyID = GOB_ID;
     print();
 }
