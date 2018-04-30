@@ -3,7 +3,7 @@
 using namespace std;
 
 Troll::Troll(int health, int const cStrength, int const eConstitution, int startX, int startY):
-	Enemy(health, cStrength, eConstitution, startX, startY)
+	Enemy(health, cStrength, eConstitution, startX, startY),startingHealth(health)
 {
     startingHealth = health;
     enemyID = TROLL_ID;
