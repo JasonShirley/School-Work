@@ -9,6 +9,6 @@ public:
 	void print() const;
 	void update();
 private:
-    int startingHealth;
+   const int startingHealth;
 };
 #endif

@@ -5,15 +5,14 @@ using namespace std;
 Troll::Troll(int health, int const cStrength, int const eConstitution, int startX, int startY):
 	Enemy(health, cStrength, eConstitution, startX, startY),startingHealth(health)
 {
-    startingHealth = health;
     enemyID = TROLL_ID;
     print();
 }
 void Troll::update() {
     int posMinus = (rand() % 3 + (-10));
     int posPlus = (rand() % 3 + 7);
-    if (-(posMinus) > posPlus) { xLoc = xLoc + (rand() % 3 + (-10));}
-    else {xLoc = xLoc + (rand() % 3 + 7);}       
+    if (-(posMinus) > posPlus) { xLoc = xLoc + posMinus;}
+    else {xLoc = xLoc + posPlus;}       
     currentHealth = currentHealth + constitution;
     if (currentHealth > startingHealth) {currentHealth = startingHealth;}
     cout << "Troll " << enemyID << " regenerates " << constitution << " health" << endl;
