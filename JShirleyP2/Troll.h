@@ -1,3 +1,7 @@
+/*
+ * This header file defines what methods the Troll class will use. It inherits methods from
+ * Enemy to drive the code.
+ */
 #ifndef TROLL_H
 #define TROLL_H
 #include "Enemy.h"

@@ -1,3 +1,7 @@
+/*
+ * This header file defines what methods the Orc class will use. It inherits methods from
+ * Enemy to drive the code.
+ */
 #ifndef ORC_H
 #define ORC_H
 #include "Enemy.h"
