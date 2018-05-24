@@ -1,0 +1,23 @@
+		if ((location + 1) < 100){
+			if(qUnion.connected(location, location + 1)) return true;
+		}
+		if ((location - 1) > 0){
+			if(qUnion.connected(location, location -1)) return true;
+		}
+		if ((location - size) > 0){
+			if(qUnion.connected(location, location - size)) return true;
+		}
+		if ((location + size) < 100){
+			if(qUnion.connected(location, location + size)) return true;
+		}
+		return false;
+
+
+
+// test block
+
+	int location2 = xyTo1D(10, 10);
+		int location3 = xyTo1D(1, 1);
+		if (qUnion.connected(location2, location3)){
+			System.out.println("FALSE");
+		}
