@@ -37,22 +37,25 @@ void Orc::attack() const{
 void Orc::injure(int attDamage){
     int damage = attDamage - con;
     if (damage < 0) { damage = 0; }
-        currentHealth = currentHealth - damage;
+        health = health - damage;
     // If the current health falls below 0, then change alive value to false to represent that the Orc is no longer with us.
-    if (currentHealth <= 0){
+    if (health <= 0){
         alive = false;
-        cout << "Orc " << id << " takes " << damage << " damage! Current hp = " << currentHealth << endl;
+        cout << "Orc " << id << " takes " << damage << " damage! Current hp = " << health << endl;
         cout << "Orc " << id << " has been slain!" << endl;
     }
     else if (alive){
         if (damage <= 0){
             cout << "The passer by tries to attack Orc " << id << ", but it's not very effective..."<< endl;
         }
-        cout << "Orc " << id << " takes " << damage << " damage! Current hp = " << currentHealth << endl;
+        cout << "Orc " << id << " takes " << damage << " damage! Current hp = " << health << endl;
     }
 
 }
 // Prints out an Orc's current status
 void Orc::print() const{
-    cout << "Orc " << id << " @" << " (" << xPosition << ", " << yPosition << ") hp = " << currentHealth << endl;
+    cout << "Orc " << id << " @" << " (" << xPosition << ", " << yPosition << ") hp = " << health << endl;
+}
+const char getDisplayChar() const{
+	return 'O';
 }

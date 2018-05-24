@@ -1,11 +1,14 @@
-#ifndef GOBLIN_H
-#define GOBLIN_H
+#ifndef TROLL_H
+#define TROLL_H
 
 #include "Enemy.h"
 
-class Goblin: public Enemy {
+class Troll: public Enemy {
+	private:
+		int maxHealth;
+
 	public:
-		Goblin(int, int, int, int, int);
+		Troll(int, int, int, int, int);
 		void update();
 		void print() const;
 		void attack() const;
@@ -14,3 +17,4 @@ class Goblin: public Enemy {
 };//end of class
 
 #endif
+

@@ -51,5 +51,6 @@ void Goblin::injure(int attDamage){
 void Goblin::print() const{
     cout << "Goblin " << id << " @" << " (" << xPosition << ", " << yPosition << ") hp = " << health << endl;
 }
-const char getDisplayChar() const;
-char
+const char Goblin::getDisplayChar() const{
+	return 'G';
+}

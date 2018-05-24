@@ -24,7 +24,7 @@ void Troll::update() {
     if (-(posMinus) > posPlus) { xPosition = xPosition + posMinus;}       // If the negative value was bigger, then set that value
     else {xPosition = xPosition + posPlus;}                               // If the positive value was bigger, then sat that value
     health = health + con;
-    if (health > startingHealth) {health = startingHealth;}           // Regenerate health
+    if (health > maxHealth) {health = maxHealth;}           // Regenerate health
     cout << "Troll " << id << " regenerates " << con << " health" << endl;
 }
 // Attack will calculate an damage value to deal to a random passerby. The damge is caluculated by a d8 random
@@ -58,4 +58,6 @@ void Troll::injure(int attDamage){
 }
 void Troll::print() const{
     cout << "Troll " << id << " @" << " (" << xPosition << ", " << yPosition << ") hp = " << health << endl;
+}
+	return 'T';
 }

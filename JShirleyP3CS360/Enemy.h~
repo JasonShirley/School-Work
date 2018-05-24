@@ -19,7 +19,7 @@ class Enemy	{
 		virtual void print() const = 0;
 		virtual void attack() const = 0;
 		virtual void injure(int) = 0;
-		virtual const char getDisplayChar() const = 0;
+		//virtual const char getDisplayChar() const = 0;
 
 		int getId() const;
 		int getHealth() const;
