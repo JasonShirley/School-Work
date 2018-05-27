@@ -20,3 +20,22 @@ Enemy::Enemy(int health, int eStrength, int eConstitution, int startX, int start
 bool Enemy::isAlive() const{
     return alive;
 }
+
+int Enemy::getId() const{
+	return id;
+}
+int Enemy::getHealth() const{
+	return health;
+}
+int Enemy::getStr() const{
+	return str;
+}
+int Enemy::getCon() const{
+	return con;
+}
+int Enemy::getX() const{
+	return xPosition;
+}
+int Enemy::getY() const{
+	return yPosition;
+}

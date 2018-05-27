@@ -1,4 +1,4 @@
-/* This class file defines a Goblin. It will associate values to variables that methods require to.
+#800080/* This class file defines a Goblin. It will associate values to variables that methods require to.
  * The class will inherit methods from the Enemy header file for use of a new goblin.
  */
 #include "Goblin.h"
@@ -46,11 +46,16 @@ void Goblin::injure(int attDamage){
         }
         cout << "Goblin " << id << " takes " << damage << " damage! Current hp = " << health << endl;
     }
+    cout << "HERE" << endl;		
+
 }
 // Prints the current status of the goblin.
 void Goblin::print() const{
     cout << "Goblin " << id << " @" << " (" << xPosition << ", " << yPosition << ") hp = " << health << endl;
 }
 const char Goblin::getDisplayChar() const{
-	return 'G';
+	if (alive){
+		return 'G';
+	}
+	else return 'g';
 }

@@ -60,5 +60,7 @@ void Troll::print() const{
     cout << "Troll " << id << " @" << " (" << xPosition << ", " << yPosition << ") hp = " << health << endl;
 }
 const char Troll::getDisplayChar() const{
-	return 'T';
+	if (alive){
+		return 'T';
+	}
 }

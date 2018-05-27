@@ -57,5 +57,8 @@ void Orc::print() const{
     cout << "Orc " << id << " @" << " (" << xPosition << ", " << yPosition << ") hp = " << health << endl;
 }
 const char Orc::getDisplayChar() const{
-	return 'O';
+	if (alive){
+		return 'O';
+	}
+	return 'o';
 }

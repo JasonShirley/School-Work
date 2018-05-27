@@ -45,15 +45,15 @@ int main() {
 			if(type == GOBLIN)
 				monsters[i] = new Goblin(hp, str, con, xPos, yPos);
 			else if(type == TROLL)
-				monsters[i] = new Troll(hp, str, con, xPos, yPos);
-			else if(type == ORC)
 				monsters[i] = new Orc(hp, str, con, xPos, yPos);
+			else if(type == ORC)
+				monsters[i] = new Troll(hp, str, con, xPos, yPos);
 		}//end for
 
 		inFile.close();
 
 		//create the GameBoard
-		GameBoard *gb = new GameBoard(30,30);
+		GameBoard *gb = new GameBoard(13,13);
 
 		//game loop
 		//NOTE: traditionally, a game loop is a while(true) loop. I am limiting it to
@@ -63,7 +63,7 @@ int main() {
 			std::cout << "\nTurn #" << turn << std::endl;
 			for(int i=0; i<numEnemies; i++)	{
 				if(monsters[i]->isAlive()){ //skip dead enemies
-					monsters[i]->update();
+					//monsters[i]->update();
 					monsters[i]->print();
 					monsters[i]->attack();
 					monsters[i]->injure(rand() % 10);
