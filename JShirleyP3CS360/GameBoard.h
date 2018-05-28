@@ -11,14 +11,18 @@ class GameBoard{
 		int yCoordinate;
 		int xCorInit;
 		int yCorInit;
+		int vect = 0;
+		int xPos;
+		int yPos;
 		vector <Enemy*> enemyVect;
 		char **gameBoard;
 	public:
 		GameBoard(int xCor, int yCor);
 		~GameBoard();
+		void checkEqualPosition();
 		void addGamePiece(Enemy *enemy);
 		void resetBoard() const;
-		void printBoard() const;
+		void printBoard() ;
 };
 
 #endif

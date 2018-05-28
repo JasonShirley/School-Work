@@ -46,7 +46,7 @@ void Goblin::injure(int attDamage){
         }
         cout << "Goblin " << id << " takes " << damage << " damage! Current hp = " << health << endl;
     }
-    cout << "HERE" << endl;		
+	
 
 }
 // Prints the current status of the goblin.

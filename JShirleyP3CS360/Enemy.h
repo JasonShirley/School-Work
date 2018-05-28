@@ -7,6 +7,7 @@ class Enemy	{
 		int health;
 		int str;
 		int con;
+		int vectTracker;
 		int xPosition;
 		int yPosition;
 		bool alive;
@@ -27,7 +28,8 @@ class Enemy	{
 		int getCon() const;
 		int getX() const;
 		int getY() const;
-
+		void setX(int x);
+		void setY(int y);
 }; //end of class
 
 #endif

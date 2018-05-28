@@ -39,3 +39,9 @@ int Enemy::getX() const{
 int Enemy::getY() const{
 	return yPosition;
 }
+void Enemy::setX(int x){
+	xPosition = x;
+}
+void Enemy::setY(int y){
+	yPosition = y;
+}

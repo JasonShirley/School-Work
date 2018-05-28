@@ -17,12 +17,10 @@ Troll::Troll(int health, int const cstr, int const econ, int startX, int startY)
 // update Will update a Troll's position. A random number between -7 to -10 and 7 to 10 on the x axis.
 // update will also regenerate a Troll's heal equal to the troll's con.
 void Troll::update() {
-    int posMinus = (rand() % 3 + (-10));
-    int posPlus = (rand() % 3 + 7);
-    // Compare two random generated values from 7 to 10 and -7 to -10. Change the negative value to positive and 
-    // compare the two values.
-    if (-(posMinus) > posPlus) { xPosition = xPosition + posMinus;}       // If the negative value was bigger, then set that value
-    else {xPosition = xPosition + posPlus;}                               // If the positive value was bigger, then sat that value
+    int sign = rand() % 2 + 1;
+    int randNum = (rand() % 3 + 7);
+    if (sign == 1) { xPosition = xPosition  + -1*randNum;}       // If the negative value was bigger, then set that value
+    else if (sign == 2) {xPosition = xPosition + randNum;}       // If the positive value was bigger, then sat that value
     health = health + con;
     if (health > maxHealth) {health = maxHealth;}           // Regenerate health
     cout << "Troll " << id << " regenerates " << con << " health" << endl;
@@ -60,7 +58,6 @@ void Troll::print() const{
     cout << "Troll " << id << " @" << " (" << xPosition << ", " << yPosition << ") hp = " << health << endl;
 }
 const char Troll::getDisplayChar() const{
-	if (alive){
-		return 'T';
-	}
+	if (alive){return 'T';}
+	else { return 't'; } 
 }

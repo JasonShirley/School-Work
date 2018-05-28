@@ -1,8 +1,11 @@
 #include "GameBoard.h"
 #include <vector>
 #include <iostream>
-#include "Goblin.h"
+#include <ctime>
+#include <cstdlib>
+
 using namespace std;
+
 GameBoard::GameBoard(int xCor, int yCor){
 	xCoordinate = (xCor * 2) + 1;
 	yCoordinate = (yCor * 2) + 1;
@@ -25,16 +28,32 @@ GameBoard::GameBoard(int xCor, int yCor){
 		}
 	}
 }
-
 GameBoard::~GameBoard(){
-	free (gameBoard);
-	for (Enemy *e : enemyVect){
-		delete e;
-	}
 }
-
 void GameBoard::addGamePiece(Enemy *enemy){
+	cout << "Adding gamepiece " << enemy->getDisplayChar() << " at (" << enemy->getX() << " , " << enemy->getY() << ")" << endl;
+	if (enemy->getX() > xCorInit){
+		enemy->setX(xCorInit);
+		cout << "Re-Positioning gamepiece " << enemy->getDisplayChar() << " " << enemy->getId();
+		cout << ", gamepiece out of bounds, adding piece at (" << enemy->getX() << " , " << enemy->getY() << ")" << endl;
+	}
+	else if (enemy->getX() < -xCorInit){
+		enemy->setX(-1*xCorInit);
+		cout << "Re-Positioning gamepiece " << enemy->getDisplayChar();
+		cout << ", gamepiece out of bounds, adding piece at (" << enemy->getX() << " , " << enemy->getY() << ")" << endl;	
+		}
+	if (enemy->getY() > yCorInit){
+		enemy->setY(-1*yCorInit);
+		cout << "Re-Positioning gamepiece " << enemy->getDisplayChar() << " " << enemy->getId();
+		cout << ", gamepiece out of bounds, adding piece at (" << enemy->getX() << " , " << enemy->getY() << ")" << endl;	
+		}		
+	else if (enemy->getY() < -yCorInit){
+		enemy->setY(-1*yCorInit);
+		cout << "Re-Positioning gamepiece " << enemy->getDisplayChar() << " " << enemy->getId();
+		cout << ", gamepiece out of bounds, adding piece at (" << enemy->getX() << " , " << enemy->getY() << ")" << endl;	
+		}
 	enemyVect.push_back(enemy);
+	checkEqualPosition();
 }
 
 void GameBoard::resetBoard() const {
@@ -50,9 +69,10 @@ void GameBoard::resetBoard() const {
 	}
 }
 
-void GameBoard::printBoard() const{
+void GameBoard::printBoard() {
 	int setRow;
 	int setCol;
+	int count = 0;
 
 	for (int i = 0; i < yCoordinate; i++){
 		for (int j = 0; j < xCoordinate; j++){
@@ -65,7 +85,7 @@ void GameBoard::printBoard() const{
 					}
 					if (setRow < 0){				// The enemy has stepped out of y bounds
 						setRow = 0;
-					}
+					}	
 					gameBoard[setRow][setCol] = e->getDisplayChar();
 				}
 				else if (e->getX() > 0 && e->getY() < 0){	// The enemy is in Q4 
@@ -110,4 +130,28 @@ void GameBoard::printBoard() const{
 		cout << endl;
 	}
 }
-
+void GameBoard::checkEqualPosition(){
+	int i = 0;
+	int xOrY;
+	for (i; i < enemyVect.size(); i++){
+	for(int j = 0; j < enemyVect.size(); j++){
+		if (enemyVect[i]->getX() == enemyVect[j]->getX() && enemyVect[i]->getY() == enemyVect[j]->getY()){
+			if(enemyVect[i] != enemyVect[j]){
+				cout << "Enemy " << enemyVect[j]->getDisplayChar() << " " << enemyVect[j]->getId();
+				cout << " & " << enemyVect[i]->getDisplayChar() << " " << enemyVect[i]->getId() << " are equal";
+				xOrY = rand() % 2 + 1;
+				cout << xOrY << endl;
+				if ( xOrY == 1){
+					enemyVect[j]->setX(enemyVect[j]->getX() + rand() % 2 - 2);
+					cout << " Moving " << enemyVect[j]->getDisplayChar();
+					cout << " to (" << enemyVect[j]->getX() << " , " << enemyVect[j]->getY() << ")" << endl;
+				}
+				else if (xOrY == 2){
+					enemyVect[j]->setY(enemyVect[j]->getY() + rand() % 2 - 2);
+					cout << " Moving " << enemyVect[j]->getDisplayChar();
+					cout << " to (" << enemyVect[j]->getX() << " , " << enemyVect[j]->getY() << ")" << endl;
+				}
+			}
+		}
+	}
+}}
