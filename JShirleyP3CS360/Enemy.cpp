@@ -10,8 +10,7 @@ int Enemy::idGenerator = 1;
 
 Enemy::Enemy(int health, int eStrength, int eConstitution, int startX, int startY):
         health(health), str(eStrength), con(eConstitution),
-        xPosition(startX), yPosition(startY), alive(true)
-{
+        xPosition(startX), yPosition(startY), alive(true){
     srand(time(NULL));          // seed RNG for other classes
 }
 

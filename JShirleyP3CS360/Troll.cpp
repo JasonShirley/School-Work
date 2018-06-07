@@ -19,8 +19,8 @@ Troll::Troll(int health, int const cstr, int const econ, int startX, int startY)
 void Troll::update() {
     int sign = rand() % 2 + 1;
     int randNum = (rand() % 3 + 7);
-    if (sign == 1) { xPosition = xPosition  + -1*randNum;}       // If the negative value was bigger, then set that value
-    else if (sign == 2) {xPosition = xPosition + randNum;}       // If the positive value was bigger, then sat that value
+    if (sign == 1) { xPosition = xPosition  + -1*randNum;}       // If 1 was picked, then add negative randNum
+    else if (sign == 2) {xPosition = xPosition + randNum;}       // If 2 was picked, then add positive randNum
     health = health + con;
     if (health > maxHealth) {health = maxHealth;}           // Regenerate health
     cout << "Troll " << id << " regenerates " << con << " health" << endl;

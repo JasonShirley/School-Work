@@ -1,4 +1,4 @@
-#800080/* This class file defines a Goblin. It will associate values to variables that methods require to.
+/* This class file defines a Goblin. It will associate values to variables that methods require to.
  * The class will inherit methods from the Enemy header file for use of a new goblin.
  */
 #include "Goblin.h"
@@ -15,8 +15,8 @@ Goblin::Goblin(int health, int const cstr, int const econ, int startX, int start
 // update Will update a goblin's position. A random number between -3 to 3 will be chosen for the x value
 // and a random number between -2 to 2 will be chosen to the y value.
 void Goblin::update() {
-        xPosition = xPosition + rand() % 6 - 3;
-        yPosition = yPosition + rand() % 4 - 2;
+        xPosition = xPosition + rand() % 7 - 3;
+        yPosition = yPosition + rand() % 5 - 2;
     }
 // Attack will calculate an damage value to deal to a random passerby. The damge is caluculated by a d4 random
 // number generation. When a random number is generated the number is added to the str value to determine the

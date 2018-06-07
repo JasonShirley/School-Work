@@ -15,7 +15,6 @@
 //Initialize addVal to the value of a, and set the id appropriately.
 AdditionObserver::AdditionObserver(Observable *obs, int a)	{
 
-
 	obs->addObserver(this);
 	addVal = a;
 	id = idGenerator++;
@@ -27,7 +26,7 @@ AdditionObserver::AdditionObserver(Observable *obs, int a)	{
 //All this method should do is to print to stdout, showing the observer id,
 //and adding newVal to the addVal.
 void AdditionObserver::update(int newVal) {
-	addVal = newVal;
+	addVal = newVal + addVal;
 	std::cout << "id: " << id << "\nadding newVal: " << addVal << "\n";
 
 }//end of update

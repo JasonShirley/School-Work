@@ -16,10 +16,14 @@ class GameBoard{
 		int yPos;
 		vector <Enemy*> enemyVect;
 		char **gameBoard;
+		int setRow = 0;
+		int setCol = 0;
 	public:
 		GameBoard(int xCor, int yCor);
 		~GameBoard();
-		void checkEqualPosition();
+		void checkCartesianBounds(Enemy *enemy);
+		void arrayBoundCheck(Enemy *enemy);
+		void checkEqualPosition(Enemy *enemy);
 		void addGamePiece(Enemy *enemy);
 		void resetBoard() const;
 		void printBoard() ;

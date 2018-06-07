@@ -16,7 +16,7 @@ Orc::Orc(int health, int const cstr, int const econ, int startX, int startY):
 // update Will update a Orc's position. A random number between -5 and 5 on both the x and y
 // values to represent diagonal movement.
 void Orc::update() {
-        int pos = rand() % 10 - 5;
+        int pos = rand() % 11 - 5;
         xPosition = xPosition + pos;
         yPosition = yPosition + pos;
     }
