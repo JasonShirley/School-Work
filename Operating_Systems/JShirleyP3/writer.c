@@ -11,13 +11,21 @@ char* data;
 int shmid;
 
 void handle_sigint(int sig){
-	printf("\nshmwriter: SIGINT signal caught.\n");
-	printf("goodbye! thanks for sharing.\n");
-	printf("cleaning up segid %d", shmid);
-	printf("\n");
-	shmdt(data);
-	shmctl(shmid, IPC_RMID, NULL);
-	exit(0);
+	if (sig == SIGINT){
+		printf("\nshmwriter: SIGINT signal caught.\n");
+		printf("goodbye! thanks for sharing.\n");
+		printf("cleaning up segid %d", shmid);
+		printf("\n");
+		shmdt(data);
+		shmctl(shmid, IPC_RMID, NULL);
+		exit(0);
+	}
+	else if (sig == SIGUSR1){
+		fflush(stdin);
+		printf("\n");
+		printf("%d shmwriter: SIGUSR1 signal caught", getpid());
+		fflush(stdout);	
+	}
 }
 
 int main() {
@@ -34,9 +42,12 @@ int main() {
         perror("sigaction");
         exit(1);
     }
+    else if (sigaction(SIGUSR1, &sa, NULL) == -1){
+		perror("sigaction");
+		exit(1);
+	}
     	
-	printf("%d", getpid());
-	printf(" shmwriter: enter a shemloc: ");
+	printf("%d shmwriter: enter a shemloc: ", getpid());
 	fgets(charArray, 100, stdin);
 	charArrToInt = atoi(charArray);
 	
@@ -47,7 +58,7 @@ int main() {
 		exit(1);
 	}
 	shmid = shmget(key, sizeof(char)*100, 0644 | IPC_CREAT);
-	printf("%d I am right here" , shmid);
+	printf("set up memory seg, id %d" , shmid);
 	printf("\n");
 	
 	while(1){
