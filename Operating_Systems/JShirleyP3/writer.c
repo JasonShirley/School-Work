@@ -21,7 +21,6 @@ void handle_sigint(int sig){
 		exit(0);
 	}
 	else if (sig == SIGUSR1){
-		fflush(stdin);
 		printf("\n");
 		printf("%d shmwriter: SIGUSR1 signal caught", getpid());
 		fflush(stdout);	
@@ -57,12 +56,24 @@ int main() {
 		perror("ftokl");
 		exit(1);
 	}
+	
 	shmid = shmget(key, sizeof(char)*100, 0644 | IPC_CREAT);
+	
+	if(shmid == -1){
+		perror("shmget");
+		exit(1);
+	}
+	
 	printf("set up memory seg, id %d" , shmid);
 	printf("\n");
 	
+	data = shmat(shmid, (void*)0, 0);
+	if(data == (char *)(-1)){
+		perror("shmat");
+		exit(1);
+	}	
+	
 	while(1){
-		data = (char*)shmat(shmid, (void*)0, 0);
 		printf("%d ", getpid());
 		printf("shmwriter: enter some data: ");
 		fgets(data, 100, stdin);

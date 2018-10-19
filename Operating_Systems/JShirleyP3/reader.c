@@ -61,15 +61,25 @@ int main() {
 		perror("ftokl");
 		exit(1);
 	}
-	printf("set up memory seg, id ");
+	printf("%d set up memory seg, id ", getpid());
 	shmid = shmget(key, sizeof(charArray), 0644 | IPC_CREAT);	// define the shmem segment and connect to it
 	printf("%i ", shmid);
 	printf("\n");
 	
+	data = (char*)shmat(shmid, (void*)0, 0);					// attach char* to the memory segment
+	
+	if(data == (char *)(-1)){
+		perror("shmat");
+		exit(1);
+	}	
+	
 	while(1){
-		data = (char*)shmat(shmid, (void*)0, 0);					// attach char* to the memory segment
-		printf("%d ", getpid());
-		printf("shmreader: shared memory currently contains: %s\n", data);
+		printf("%d shmreader: shared memory currently contains: %s\n", getpid(), data);
+		if(atoi(data) == getpid()){
+			printf("%d was told to exit. goodbye!\n", getpid());
+			shmdt(data);
+			exit(1);
+		}
 		sleep(10);
 	}
 }
