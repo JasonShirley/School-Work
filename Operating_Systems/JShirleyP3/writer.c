@@ -11,16 +11,30 @@ char* data;
 int shmid;
 
 void handle_sigint(int sig){
-	printf("\nI have caught the signal %d\n", sig);
+	printf("\nshmwriter: SIGINT signal caught.\n");
+	printf("goodbye! thanks for sharing.\n");
+	printf("cleaning up segid %d", shmid);
+	printf("\n");
 	shmdt(data);
 	shmctl(shmid, IPC_RMID, NULL);
 	exit(0);
 }
 
 int main() {
+	void handle_sigint(int sig);
 	char charArray[100];							//Used to identify shmloc
 	int charArrToInt;
+	struct sigaction sa;
 	
+	sa.sa_handler = handle_sigint;
+	sa.sa_flags = SA_RESTART;
+	sigemptyset(&sa.sa_mask);
+
+    if (sigaction(SIGINT, &sa, NULL) == -1) {
+        perror("sigaction");
+        exit(1);
+    }
+    	
 	printf("%d", getpid());
 	printf(" shmwriter: enter a shemloc: ");
 	fgets(charArray, 100, stdin);
@@ -34,7 +48,7 @@ int main() {
 	}
 	shmid = shmget(key, sizeof(char)*100, 0644 | IPC_CREAT);
 	printf("%d I am right here" , shmid);
-	signal(SIGINT, handle_sigint);
+	printf("\n");
 	
 	while(1){
 		data = (char*)shmat(shmid, (void*)0, 0);
