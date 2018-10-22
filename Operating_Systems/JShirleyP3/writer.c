@@ -48,7 +48,7 @@ void handle_signal(int sig){
 
 int main() {
 	void handle_signal(int sig);					// define handle_signal function
-	char charArray[100];							//Used to identify shmloc
+	char charArray[100];							// Used to identify shmloc
 	int charArrToInt = 0;
 	int i;
 	for (i = 0; i < 100; i++){						// Fill array with 0's easier to convert key id later
