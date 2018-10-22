@@ -65,17 +65,17 @@ int main() {
 	printf("%d", getpid());
 	printf(" shmwriter: enter a shemloc: ");
 	fgets(charArray, 100, stdin);
+	// I'm using this to remove newline and non numerical and alpa chars
+	// used to assist in id for key
+	charArrToInt = (int)strtol(charArray, NULL, 10);
 	printf("\n");
 	// This loop is used to convert the charArray to an int. The int produced will be used
 	// to generate ftok key id for memory sharing.	
 	for(i = 0; i < 100; i++){
 		charArrToInt = (int)charArray[i] + charArrToInt;
-		printf("%d \n", charArrToInt);
 	}
-	
-	printf("%d\n", charArrToInt);
-	
-	key_t key = ftok("shmfile", charArrToInt);				//Generate a System V IPC Key for memshare
+		
+	key_t key = ftok("reader.c", charArrToInt);				//Generate a System V IPC Key for memshare
 
 	if(key == -1){
 		perror("ftokl");
