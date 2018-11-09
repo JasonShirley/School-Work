@@ -1,3 +1,4 @@
+
 import java.io.*;
 import java.util.regex.Pattern;
 import java.util.*;
@@ -28,36 +29,6 @@ public class MagicSquare{
     ColumnChecker colCheck = new ColumnChecker(magicArray, 0, 0);
     rowCheck.checkRow();
     colCheck.checkCol();
-    // I bypassed all of the Runnable mumbo jumbo with lambdas. I know how much you love
-    // lambdas sheehy which is why I did it. Should work in Java 8, if not talk to me.
-  //   for (int i = 0; i < arrSize; i++){
-  //     rowThreadCheckArray[i] = new Thread(() -> {
-  //       for(int j = 0; j < arrSize; j++){
-  //         String threadId = Long.toString(Thread.currentThread().getId());
-  //         System.out.println(running.threadStatus(threadId));
-  //           try{
-  //             System.out.println("thread " + threadId + " is going to sleep.");
-  //             Thread.sleep(1000);
-  //           }
-  //           catch(Exception e){
-  //             System.err.println();
-  //           }
-  //           System.out.println("thread " + Thread.currentThread().getId() + " woke up" );
-  //         }
-  //         System.out.println("thread " + Thread.currentThread().getId() + ": goodbye!");
-  //       });
-  //       rowThreadCheckArray[i].start();
-  //       System.out.println("main thread: started thread: " + rowThreadCheckArray[i].getId());
-  //   for (int j = 0; j < arrSize; j++){
-  //     try{
-  //       System.out.println("main thread: waiting on thread: " + rowThreadCheckArray[j].getId());
-  //       rowThreadCheckArray[j].join();
-  //       System.out.println("main thread: done waiting on thread: " + rowThreadCheckArray[j].getId());
-  //     }
-  //     catch (Exception e){
-  //     }
-  //   }
-  // }
 }
 
 
