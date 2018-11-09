@@ -6,7 +6,7 @@
 #include <ctime>
 #include <cstdlib>
 using namespace std;
-int Enemy::idGenerator = 1;
+int Enemy::idGenerator = ;
 
 Enemy::Enemy(int health, int eStrength, int eConstitution, int startX, int startY):
         health(health), str(eStrength), con(eConstitution),
