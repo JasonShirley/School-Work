@@ -1,22 +1,16 @@
 
 class Message{
   String message;
-  boolean terminate = false;
+  boolean terminate;
   public Message(){
     message = null;
   }
-  public Message(String mess){
+  public Message(String mess, boolean term){
+    terminate = term;
     message = mess;
   }
   public boolean isTerminate(){
-    if (this.message.equals("")) {
-      terminate = true;
       return terminate;
-    }
-    else {
-      terminate = false;
-      return terminate;
-    }
   }
   @Override
   public String toString(){

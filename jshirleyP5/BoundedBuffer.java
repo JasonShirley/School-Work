@@ -32,12 +32,11 @@ class BoundedBuffer {
     }
   }
 
-  public Object take(int y) throws InterruptedException {
-    int id = y;
+  public Object take() throws InterruptedException {
     lock.lock();
     try {
       while (count == 0){
-        System.out.println("Consumer " + id + " is waiting");
+        System.out.println("Consumer " + Thread.currentThread().getName() + " is waiting");
         notEmpty.await();
       }
       Object x = items[takeptr];
