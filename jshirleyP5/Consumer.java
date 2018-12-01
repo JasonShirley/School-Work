@@ -1,3 +1,12 @@
+/*
+* Jason Shirley
+* CS 311 Winter 2018
+* The consumer class will build consumer objects. The objects contain a bounded
+* buffer that is passed into the class. The consumer class will take care of
+* running consumer threads. The thread will print out the String stored in the
+* message object on the bounded buffer. The thread will also check to see if the
+* value is a terminate value according to the Message object.
+ */
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -16,16 +25,15 @@ class Consumer{
       try{
           while(terminate == false){
             message = (Message) boundedBuff.take();
-            System.out.println("consumer: " + Thread.currentThread().getName() + " reads: " + message);
+            System.out.println(Thread.currentThread().getName() + " reads: " + message);
             int random = ThreadLocalRandom.current().nextInt(5500, 10500);
-            System.out.println("Consumer " + Thread.currentThread().getName() + " is sleeping for " + random);
-            System.out.println("I'M TESTING TO SEE IF I CAN PRINT THIS BOOLEAN: " + message.isTerminate());
-            Thread.currentThread().sleep(1000);
+            System.out.println(Thread.currentThread().getName() + " is sleeping for " + random);
+            Thread.currentThread().sleep(random);
             if(message.isTerminate()){
               terminate = true;
             }
           }
-          System.out.println("Thread " + Thread.currentThread().getName() + " is exiting");
+          System.out.println(Thread.currentThread().getName() + ": got terminate message. Thread exiting.");
         }
         catch(Exception e){
           System.err.println("Exception caught HERE! I'm in consumer! " + e);
