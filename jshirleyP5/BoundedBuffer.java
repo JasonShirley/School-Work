@@ -36,7 +36,7 @@ class BoundedBuffer {
     lock.lock();
     try {
       while (count == 0){
-        System.out.println("Consumer " + Thread.currentThread().getName() + " is waiting");
+        System.out.println(Thread.currentThread().getName() + " is waiting");
         notEmpty.await();
       }
       Object x = items[takeptr];
