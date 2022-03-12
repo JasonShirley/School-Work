@@ -1,0 +1,146 @@
+/* 
+ * Jason Shirley
+ * CS 221 Fall 2017
+ * Dog.cpp (Assignment 04)
+ * Description: Dog.cpp is the driver for building the Dog class. It uses function prototypes
+ * and various data types from the header file, Dog.h, to build up a new Dog. 
+*/
+
+
+#include "Dog.h"
+#include <iostream>
+#include <string>
+#include <unistd.h>
+
+using namespace std;
+
+Dog::Dog(string dName) {    // Constructor for Dog
+    name = dName;           // Set the dog's name
+    cout <<"Dog being born..." << endl;
+    cout << "Welcome to life " << name << endl;
+}
+
+Dog::~Dog( ){               // Destructor for Dog
+    cout<<"All good things must come to an end. Goodbye " << name << endl;
+}
+
+void Dog::setWeight(double dWeight){    // Set Dog's weight
+    if (dWeight <= 500){
+        weight = dWeight;
+    }
+}
+
+// Bark is used to determine how many times the dog will bark and the type of bark
+// that the dog will have. If Dog's weight is below 100, it'll YAP and if its over it will
+// WOOF. Control statements check to see if the weight is in rage of 0 to 500.
+void Dog::bark (int bark){
+    int i = 0;
+    // if Dog's weight is below 100, yap.
+    if (weight < 100){
+        while (i < bark){
+            cout << "yap!!!" << endl;
+            i++;
+        }
+    }
+    // else if Dog's wight is greater than 100 and less than 500, WOOF
+    else if (weight >= 100 && weight < 500){
+        while(i < bark){
+            cout << "WOOF!!!" << endl;
+            i++;
+        }
+    }
+}
+// setNumberOfLegs builds Dog's legs. It checks if the dog has between 0 and 4 legs and
+// sets the leg variable for dog.
+void Dog::setNumberOfLegs (int legs){
+    numberOfLegs = legs;
+    if (numberOfLegs > 5 || numberOfLegs < 0){
+        numberOfLegs = 4;
+    }
+}
+// setHappiness is a boolean statement that sets the isHappy variable for Dog. It is defaulted
+// as true in Dog.h. setHappiness will chang the value accordingly when parameters are passed
+// to the function. 
+void Dog::setHappiness (bool mood){
+    isHappy = mood;
+}
+// wag is a function that is passed two integer values. One integer value is how how many times
+// Dog will wag. The other is how many seconds to pause between wags. When a wag is executed,
+// the program will print either a / or a \. A / is printer for every even value and a \ is printed
+// for every odd value.
+void Dog::wag (int numWag, int millisec){
+    int i = 0;
+    if (isHappy == true){
+        cout << "I'm " << name << " and I'm happy! " << "Sleep Value: " << millisec << endl;
+        if (numWag <= 1000 && millisec <= 1000){
+            millisec = millisec * 1000;     // Convert microseconds to milliseconds.
+            while (i < numWag){
+                if((i%2)==0){       // Is the wag number we are on an even value?
+                    cout << "/ ";  
+                    usleep(millisec);  // pause 
+                    cout.flush();      // clear ostream
+
+                }
+                else{              // Is the wag number an odd value?
+                    cout << "\\ ";
+                    usleep(millisec); // pause
+                    cout.flush();     // clear ostream
+                }
+            i++;   
+            }
+            cout << endl;
+        }
+    }
+    delete bone;                    // If memory has been allocated for a bone, delete it.
+    isHappy = false;                // Dog is nolonger happy, change the variable isHappy to reflect it
+    cout << "I'm " << name << " and I'm done being happy." << endl;
+}
+// run is used to tell how far and how fast a Dog will run. It is passed in an int value for distance and 
+// an int value for speed. Distance will determine how many #'s will be printed when executed and speed will
+// determine how long to sleep between # cout executions. The function checks to see fi distance and speed are
+// valid values between 0 and 1000. If the speed is greater than 1000 it'll reset speed to 0 and if distance is
+// greater than 1000 the function will do nothing. run also will adjust for the number of legs a Dog has. If the
+// Dog has 4 legs it will run the full distance. If the Dog has 3 legs it will run 75% of the distance. If the dog
+// has less than 3 legs it will not run. 
+void Dog::run(int distance, int speed){
+    int howFar = distance;
+    int i = 0;
+    if (speed > 1000){          // Check for if speed is a valid value
+        speed = 0;              // If speed is over 1000, set speed to 0
+    }
+    if (numberOfLegs == 3){     // Check for if Dog has 3 legs
+        howFar = distance *.75; // If so, then run 75% of the distance passed.
+    }
+    speed = speed * 1000;       // Change microseconds to milliseconds
+    if(numberOfLegs >= 3 && howFar <= 1000 ){   // If the legs and distance are of proper values, execute the following.
+        cout << "Ball? BALL! BALLBALLBALLBALL! MUST GET BALL!!!! " << "Sleep Value: " << speed << endl;
+        while (i < howFar){
+            usleep(speed);      // pause
+            cout << "#";        
+            cout.flush();       // clear ostream
+            i++;
+        }
+        cout << endl;
+        cout << name << " is tired now. My tail is dragging." << endl;
+    }
+    
+        
+}
+// addBone creates a new dynamically allocated Bone. When a new Bone is made, it sets Dog's isHappy variable to true.
+void Dog::addBone(){
+    bone = new Bone();
+    isHappy = true;
+    cout << "OH WOW NICE BONE!" << endl;
+}
+// setEyeColor is passed a string value for eyes. It saves the value of eyeColor inside of the Dog class for the newly created Dog.
+void Dog::setEyeColor(string eyes){
+    eyeColor = eyes;
+    cout << "My name is " << name << " and my eyes are " << eyeColor << endl;
+}
+// setFurColor is passed a string value for fur. It saves the value of furColor inside of the Dog class for the newly created Dog.
+void Dog::setFurColor(string fur){
+    furColor = fur;
+    cout << "My name is " << name << " and my fur is " << furColor << endl;
+}
+  
+    

@@ -1,0 +1,40 @@
+/* 
+ * Jason Shirley
+ * CS 221 Fall 2017
+ * Dog.h (Assignment 04)
+ * Description: Dog.h is the header file used to create the Dog object. It employes various 
+ * function prototypes to be used in Dog.cpp. It also sets variables to be used
+ * for storing various values for the Dog being built.
+*/
+
+#include <string.h>
+#include <iostream>
+#include <Bone.h>
+using namespace std; 
+class Dog {
+    public:
+        // Member Functions
+        void setNumberOfLegs(int legs);
+        void setEyeColor(string eye);
+        void setFurColor(string fur);
+        void setWeight(double weight);
+        void setName();
+        void addBone();
+        void bark(int bark);
+        void wag(int numWag, int millisec);
+        void setHappiness(bool mood);
+        void run(int distance, int speed);
+        Dog(string x); // Constructor
+        ~Dog();        // Destructor
+        
+        // Variables for building a new Dog.
+    private:
+        Bone *bone = NULL; // New Bone type to be used for Dog
+        int numberOfLegs;
+        string eyeColor;
+        string furColor;
+        double weight;
+        bool isHappy;
+        string name;
+
+};

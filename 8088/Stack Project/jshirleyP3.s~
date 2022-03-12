@@ -1,0 +1,111 @@
+! jshirleyP3
+!
+! jshirleyP3 is designed to take up to 100 characters and test to see if
+! it is a numeric value, store the values on the 8088 stack, and return
+! those values in reverse order from when they were entered. 
+!
+! Programmed by: Jason Shirley
+! Date: 05/06/17
+
+_EXIT = 1			! Used to exit the program.
+_PRINTF = 127		! Used to print data.
+_GETCHAR = 117		! Used to get character data from user.
+.SECT	.TEXT
+
+
+
+start:		
+	PUSH  d1		! Prompt user to input data.
+	PUSH _PRINTF	! Print the prompt.
+	SYS	
+	MOV CX, 100 	! Set the boundries for the loop used later on.
+	MOV	SP,BP		! Clear the stack.
+
+! getnum is used to get the character data. Once the program gets the input,
+! it moves to savnum to store numeric data onto the 8088's stack. When the
+! function is returned to, it closes the program.
+getnum:	
+	PUSH _GETCHAR	! Program awaits for user input.
+	SYS		
+	MOV SP,BP		
+	CALL savnum		! Move to savenum function.
+
+	PUSH lnfd
+	PUSH _PRINTF
+	SYS
+
+	PUSH _EXIT
+	SYS
+
+! savnum stores numeric data onto the stack. It does some simple math to convert
+! the current value of the user input to decimal. The function then checks to see
+! if after the conversion the value is within the numeric boundries of 0-9.
+savnum:	
+	MOV  BP, SP		
+
+1:
+	CMP AX, 10		! Compares AX to linefeed.
+	JE print		! Moves to print object if true.
+	SUB AX, 48		! Math to convert data in AX to integer
+	CMP AX, 0		! Compares to see if AX is zero.
+	JL 3F			! If comparision is less than or equal to 0, move to 3.
+	CMP AX, 9		! Compares to see if AX is nine.
+	JLE 2F			! If comparision is less than or equal to 0, move to 2.
+	CMP AX, 10		! Compares AX to 10.
+	JGE 3F			! If greater than or equal to 10, jump to 3. 
+
+
+2:		
+	PUSH AX			! Pushes the current value onto the stack
+	PUSH _GETCHAR	! Moves _GETCHAR to the next pointer value.
+	SYS
+	POP DX			! Clears junk from the stack.
+	LOOP 1B			! Go back to 1 to continue function. Decrement CX.
+	JMP print
+
+3:
+	PUSH _GETCHAR	! Moves _GETCHAR to next value.
+	SYS
+	POP	DX			! Clears junk from stack.
+	JMP	1B			! Go back to 1.
+
+
+! print does what the title says it does and prints the values. This is accomplished by
+! using the value stored in CX to determine by using simple arithmetic math to determine
+! how many values are in the stack and using that value to loop through and pop the vlaues
+! until the stack reaches the RET call. 
+ 
+print: 
+	MOV BX, 100		! Used to find out how many iterations of LOOP there were
+	SUB BX, CX		! Subtract 100 from CX to see how many iterations of LOOP there were
+	MOV CX, BX		! Store the value in CX for use in the LOOP.
+	MOV BP,SP
+	PUSH num		! Prompt to tell user what their number was.
+	PUSH _PRINTF		
+	SYS
+	POP DX			! Remove junk from stack.
+	POP DX			! Remove junk from stack.
+	POP AX			! Move value on top of the stack to AX.
+
+1:
+	PUSH AX			! Push value being stored in AX onto the stack.
+	PUSH d2			! Prompt to print.
+	PUSH _PRINTF	! Print the value.
+	SYS
+	POP DX
+	POP DX
+	POP DX
+	POP AX			! Pop the next stack value into AX.
+	LOOP 1B			! return to start of 1. 
+	PUSH AX			! If no other characters, push return call.
+	RET				! Return to getnum to close program. 
+2:
+	RET
+
+
+.SECT		.DATA	
+
+num:		.ASCIZ  "Your Result: "	
+d1:			.ASCIZ	"Enter a string of characters: \n"
+d2: 		.ASCIZ "%i"
+lnfd: 		.ASCIZ "\n"

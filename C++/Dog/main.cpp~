@@ -1,0 +1,14 @@
+#include "Dog.h"
+
+int main(){
+	Dog dog1("Fido");
+	Dog dog2("Bill");
+	dog1.setWeight(5.0);
+	dog1.bark(5);
+	dog1.setNumberOfLegs(3);
+	dog1.setNumberOfLegs(4);
+	dog2.run(5,1000);
+	dog1.run(5,1000);
+	dog1.addBone();
+	dog1.wag(10,10);
+	}

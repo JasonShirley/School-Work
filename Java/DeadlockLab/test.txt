@@ -1,0 +1,3024 @@
+Philosopher 0 is thinking.
+
+Philosopher 3 is thinking.
+
+Philosopher 2 is thinking.
+
+Philosopher 1 is thinking.
+
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 0 is trying to get left chopstick.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 3 is putting down left chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 4 is thinking.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 1 is eating.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 3 is thinking.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 3 is thinking.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 2 is putting down left chopstick.
+Philosopher 2 is putting down right chopstick.
+Philosopher 2 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 2 is trying to get left chopstick.
+
+Philosopher 2 is holding left chopstick.
+
+Philosopher 2 is trying to get right chopstick.
+
+Philosopher 4 is eating.
+
+Philosopher 2 is holding right chopstick.
+
+Philosopher 2 is eating.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 1 is trying to get left chopstick.
+
+Philosopher 1 is holding left chopstick.
+
+Philosopher 1 is trying to get right chopstick.
+
+Philosopher 1 is holding right chopstick.
+
+Philosopher 1 is eating.
+
+Philosopher 3 is putting down left chopstick.
+Philosopher 3 is putting down right chopstick.
+Philosopher 3 is thinking.
+
+Philosopher 3 is trying to get left chopstick.
+
+Philosopher 3 is holding left chopstick.
+
+Philosopher 3 is trying to get right chopstick.
+
+Philosopher 3 is holding right chopstick.
+
+Philosopher 3 is eating.
+
+Philosopher 4 is putting down left chopstick.
+Philosopher 4 is putting down right chopstick.
+Philosopher 4 is thinking.
+
+Philosopher 1 is putting down left chopstick.
+Philosopher 1 is putting down right chopstick.
+Philosopher 1 is thinking.
+
+Philosopher 4 is trying to get left chopstick.
+
+Philosopher 4 is holding left chopstick.
+
+Philosopher 4 is trying to get right chopstick.
+
+Philosopher 4 is holding right chopstick.
+
+Philosopher 4 is eating.
+

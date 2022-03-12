@@ -1,0 +1,26 @@
+_EXIT = 	1
+_PRINTF = 	127
+_GETCHAR =	117
+_OPEN =		5
+_WRITE =	4
+
+.SECT	.TEXT
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SECT	.DATA
+
+usrdata	=	.ASCIZ "Enter a file name: \n"
+
+
+.SECT	.BSS
